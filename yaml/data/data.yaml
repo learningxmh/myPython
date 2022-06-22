@@ -1,0 +1,16 @@
+- common: &defaults
+    url: http://baidu.com
+    input:
+      by: id
+      value: search-input
+    button:
+      by: id
+      value: button-input
+  txt: 手机
+- common:
+    <<: *defaults
+  txt: 打火机
+
+- common:
+    <<: *defaults
+  txt: 无人机

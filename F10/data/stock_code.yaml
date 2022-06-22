@@ -1,0 +1,39 @@
+-
+  name: 参数正常验证
+  request: &default
+    url: https://basic.10jqka.com.cn/basicapi/user/finance/get/
+    method: get
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+  data: &data
+    id: mobile_stock_main_default
+    market: 33
+    code: 300033
+    recommend: 1
+    type: stock
+  vilacited:
+    status_code: 0
+-
+  name: code 不存在
+  request: *default
+  data:
+      <<: *data
+      code: mobile
+  vilacited:
+    status_code: 10001
+-
+  name: code 为空
+  request: *default
+  data:
+      <<: *data
+      code: ""
+  vilacited:
+    status_code: 10001
+-
+  name: code 为null
+  request: *default
+  data:
+      <<: *data
+      code: null
+  vilacited:
+    status_code: 10001

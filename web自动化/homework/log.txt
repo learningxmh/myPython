@@ -1,0 +1,7 @@
+2022-05-18 16:34:52,770 - logging_file.py[line:18] - WARNING: 这是 warning message
+2022-05-18 16:34:52,795 - logging_file.py[line:19] - ERROR: 这是 error message
+2022-05-18 16:34:52,795 - logging_file.py[line:20] - CRITICAL: 这是 critical message
+2022-05-18 18:04:27,427 - logging_together.py[line:32] - INFO : 这是 info message
+2022-05-18 18:04:27,428 - logging_together.py[line:33] - WARNING : 这是 warning message
+2022-05-18 18:04:27,428 - logging_together.py[line:34] - ERROR : 这是 error message
+2022-05-18 18:04:27,429 - logging_together.py[line:35] - CRITICAL : 这是 critical message

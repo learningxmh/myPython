@@ -1,0 +1,13 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="接口自动化.cases.demo2.api_keys" />
+          <option value="F10.common.excel_read.read_log" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

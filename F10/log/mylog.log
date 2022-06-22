@@ -1,0 +1,12 @@
+2022-06-11 22:00:57,654 excel_read.py INFO read  当前正在执行:打开浏览器
+2022-06-11 22:00:59,921 excel_read.py INFO read  当前正在执行:访问地址
+2022-06-11 22:01:01,034 excel_read.py INFO read  当前正在执行:检查公告列表文本是否异常
+2022-06-11 22:01:01,034 utils.py INFO assume_text  当前正在执行校验文本是否有异常字符
+2022-06-11 22:01:01,230 excel_read.py INFO read  当前正在执行:检查公告列表中是否存在文本报表
+2022-06-11 22:01:01,435 excel_read.py INFO read  当前正在执行:退出浏览器
+2022-06-16 19:47:24,056 excel_read.py INFO read  当前正在执行:打开浏览器
+2022-06-16 19:47:27,002 excel_read.py INFO read  当前正在执行:访问地址
+2022-06-16 19:47:28,354 excel_read.py INFO read  当前正在执行:检查公告列表文本是否异常
+2022-06-16 19:47:28,354 utils.py INFO assume_text  当前正在执行校验文本是否有异常字符
+2022-06-16 19:47:28,574 excel_read.py INFO read  当前正在执行:检查公告列表中是否存在文本报表
+2022-06-16 19:47:28,821 excel_read.py INFO read  当前正在执行:退出浏览器
